@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,34 +14,44 @@
   <div class="page" id="page-2"></div>
   <div class="page" id="page-3"></div>
   <div class="page" id="page-4"></div>
+  <div class="page" id="page-5"></div>
+  <div class="page" id="page-6"></div>
 
-  <header>
-    <div class="hb-1">
-      <button id="openModal">※</button>
-      <div class="model" id="modal">
-        <div class="toggle-inner">
-          <button id="closeModal">Close</button>
-        </div>
+  <div class="overlay">
+    <header>
+      <div class="hb-1">
+        <button id="toggle-btn">※</button>
       </div>
-    </div>
 
-    <div class="hb-2">
-      <div class="hline-2"></div>
-      <div class="hline-1"></div>
-    </div>
+      <div class="hb-2">
+        <div class="hline-2"></div>
+        <div class="hline-1"></div>
+      </div>
 
-    <div class="hb-3"></div>
-  </header>
+      <div class="hb-3"></div>
+    </header>
 
-  <footer>
-    <div class="foot-1"></div>
-    <div class="foot-2">
-      <div class="fline-1"></div>
-      <div class="fline-2"></div>
-    </div>
-    <div class="foot-3"></div>
-  </footer>
+    <main class="overlay-main">
+<div id="box" class="hidden">
+  <a href="#page-2">——▷ Dashboard</a>
+  <a href="#page-3">——▷ Features</a>
+  <a href="#page-4">——▷ Media</a>
+  <a href="#page-5">——▷ Galary</a>
+  <a href="#page-6">——▷ Contact</a>
+</div>
+    </main>
+
+    <footer>
+      <div class="foot-1"></div>
+      <div class="foot-2">
+        <div class="fline-1"></div>
+        <div class="fline-2"></div>
+      </div>
+      <div class="foot-3"></div>
+    </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
